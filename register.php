@@ -48,12 +48,12 @@ if (mysqli_num_rows($alredy_exist) > 0) {
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers .= "From: $from\r\n";
 
-    echo "cutto";
+    
     //if (mail($to, $subject, $message, $headers))  Se l'email funzionasse {
     $insert_query = "INSERT INTO utente (username, email, password, confirmation_code, created_at) VALUES ('$username', '$email', '$password', '$confirmation_code', '$date')";
     if (mysqli_query($connect, $insert_query)) {
         $_SESSION["code"] = true;
-        header("Location: home.php");
+        header("Location: index.php");
         exit;
     } else {
         echo "errore query";
