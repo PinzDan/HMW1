@@ -49,7 +49,7 @@ if (isset($_GET['code']) && !empty($_GET['code'])) {
             $_SESSION['google_email'] = $profile['email'];
             $_SESSION['GOOGLW_NAME'] = implode(',', $google_name_parts);
             $_SESSION['google_picture'] = isset($profile['picture']) ? $profile['picture'] : '';
-            header('Location: home.php');
+            header('Location: index.php');
         } else {
             exit('Impossibile recuperare le information del profilo!');
         }
