@@ -15,7 +15,7 @@ function fetchFilm() {
             array_movie = data;
 
             switch (true) {
-                case current_page.includes("home.php"):
+                case current_page.includes("index.php"):
                     updateHomePage(data);
                     break;
                 case current_page.includes("archives.php"):
