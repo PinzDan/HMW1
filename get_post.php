@@ -3,7 +3,7 @@ session_start();
 
 
 if (isset($_SESSION["username"])) {
-    header("Location: home.php");
+    header("Location: index.php");
     exit;
 }
 if (isset($_POST["username"]) && isset($_POST["pwd"])) {
@@ -35,7 +35,7 @@ if (isset($_POST["username"]) && isset($_POST["pwd"])) {
             $_SESSION["user_id"] = $row["id"];
             mysqli_free_result($myquery);
             mysqli_close($connect);
-            header("Location: home.php");
+            header("Location: index.php");
             exit;
         } else
             $error = true;
