@@ -9,7 +9,7 @@ if (mysqli_connect_errno()) {
 }
 
 
-$query = "SELECT * FROM Film";
+$query = "SELECT * FROM Film ORDER BY title ASC";
 
 $result = mysqli_query($connect, $query);
 

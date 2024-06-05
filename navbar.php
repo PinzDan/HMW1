@@ -1,5 +1,6 @@
 <?php session_start() ?>
 
+<script src="navbar.js" defer></script>
 <section id="header">
     <div id="navbar">
         <div id="menu-button">

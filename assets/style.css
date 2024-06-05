@@ -174,83 +174,26 @@
     display: flex;
     color: var(--primary-color);
     margin-top: var(--value-2);
+    width: 50%;
+    transition: 1s;
+}
+
+#first-film:hover,
+#second-film:hover {
+    width: 100%;
 }
 
 #first-film {
     flex-direction: row;
 }
 
+
 #second-film {
     flex-direction: row-reverse;
-
+    margin-left: auto;
 }
 
 
-#user-comments {
-    font-family: var(--default-font);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: max-content;
-    padding: var(--value-2);
-    background-color: #366278;
-    border-radius: var(--size-rem-2);
-
-    flex: 1;
-    transition: 1s;
-}
-
-#user-comments:hover {
-    flex: 5;
-    transition: 1s;
-}
-
-#user-comments:hover~.description {
-    display: none;
-}
-
-
-.comments-header {
-    width: 100%;
-    border-top-right-radius: var(--size-rem-2);
-    border-top-left-radius: var(--size-rem-2);
-    background: var(--background-gradient-1);
-    text-align: center;
-}
-
-.user {
-    display: flex;
-    flex-direction: row;
-    padding: var(--value-2);
-    align-items: center;
-    width: 100%;
-}
-
-.user2 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(225, 217, 217, 0.5);
-}
-
-.profile {
-    display: inline;
-}
-
-.profile-img {
-    border-radius: var(--size-rem-5);
-    width: 64px;
-    height: 64px;
-}
-
-.star {
-    width: 20px;
-    height: 20px;
-}
-
-.comment {
-    display: flex;
-    justify-content: center;
-}
 
 .left-container,
 .right-container {
@@ -277,6 +220,9 @@
 .left-container:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     flex: 5;
+    background-color: var(--background-color-2);
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -338,13 +284,14 @@
 .trailer {
     display: none;
     width: 100%;
-    border: 1px solid black;
     height: 300px;
     margin: auto;
 }
 
 .trailer.show {
-    display: block !important;
+    display: flex !important;
+    align-content: center;
+    justify-content: center
 }
 
 /* gestione freccia */

@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="./assets/style.css">
     <script src="./assets/LogSing.js" defer></script>
-    <script src="./assets/main.js" defer></script>
+
 </head>
 
 <body id="form-body">

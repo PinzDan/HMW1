@@ -123,52 +123,6 @@ session_start();
                                 height="64"></image>
                         </svg>
                     </div>
-
-                    <div id="user-comments">
-
-                        <div class="comments-header">
-                            <h3>community</h3>
-                            <svg width="100px" height="100px">
-                                <image href="./assets/icon/people.png" width="100" height="100"></image>
-                            </svg>
-                        </div>
-                        <div class="user">
-
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-
-                        <div class="user user2">
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-
-                        <div class="user">
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Secondo film -->
@@ -191,58 +145,13 @@ session_start();
                                 height="64">
                             </image>
                         </svg>
-
                         <div class="trailer">
 
                         </div>
 
                     </div>
 
-                    <div id="user-comments">
 
-                        <div class="comments-header">
-                            <h3>community</h3>
-                            <svg width="100px" height="100px">
-                                <image href="./assets/icon/people.png" width="100" height="100"></image>
-                            </svg>
-                        </div>
-                        <div class="user">
-
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-
-                        <div class="user user2">
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-
-                        <div class="user">
-                            <div class="profile">
-                                <h3>name</h3>
-                                <img class="profile-img" src="./assets/Images/Marilyn.JPG">
-                                <img class="star" src="./assets/icon/icons8-star-64.png">
-                            </div>
-
-                            <div class="comment">
-                                <p>ciao sono pippo, bel film.</p>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </section>

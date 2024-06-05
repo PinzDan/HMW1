@@ -32,6 +32,7 @@ if (isset($_POST["username"]) && isset($_POST["pwd"])) {
         if (password_verify($password, $pwd)) {
             echo "reindirizzamento";
             $_SESSION["username"] = $username;
+            $_SESSION["user_id"] = $row["id"];
             mysqli_free_result($myquery);
             mysqli_close($connect);
             header("Location: home.php");
