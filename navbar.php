@@ -13,7 +13,7 @@
         </div>
     </div>
     <div id="menu-items">
-        <a href="home.php">
+        <a href="index.php">
             <img src="assets/icon/home_24dp_FILL0_wght400_GRAD0_opsz24.png">
             <span>Home</home>
         </a>
